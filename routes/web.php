@@ -19,3 +19,6 @@ Route::get('/todolist/{task}', [TodolistController::class, 'show'])->name('todol
 Route::get('/todolist/{task}/edit', [TodolistController::class, 'edit'])->name('todolist.edit');
 Route::put('/todolist/{task}', [TodolistController::class, 'update'])->name('todolist.update');
 Route::delete('/todolist/{task}', [TodolistController::class, 'destroy'])->name('todolist.destroy');
+
+
+// test
